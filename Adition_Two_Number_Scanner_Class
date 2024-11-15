@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+class Input{
+    public static void main(String[] args) {
+       Scanner Vs = new Scanner((System.in));
+        System.out.println("Enter first 1no:");
+        int a=Vs.nextInt();
+        System.out.println("Enter 2nd Number:");
+        int b=Vs.nextInt();
+        int c=a+b;
+        //for float addition:
+        System.out.println("Enter first decimal number:");
+        float d=Vs.nextFloat();
+        System.out.println("Enter second decimal number:");
+        float e=Vs.nextFloat();
+
+        float f=d+e;
+        System.out.println("Addition of two float number is to be:" +f);
+        System.out.println("The sum of two integers is to be:" +c);
+        
+    }
+}
